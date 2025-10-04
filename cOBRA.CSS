@@ -1,0 +1,73 @@
+.box{
+    color: black;
+    text-shadow: 5px 5px 5px black;
+    height: 90px;
+    width: 90px;
+}
+h1{
+    font-size: xxx-large;
+}
+p{
+    font-size: 25px;
+}
+#H{
+    text-align: center;
+    font-size: xxx-large;
+    animation: H 2s infinite ease-in-out ;
+}
+#E {
+    text-align: center;
+    font-size: xxx-large;
+    animation: E 2s infinite ease-in-out;
+}
+#L {
+    text-align: center;
+    font-size: xxx-large;
+    animation: L 2s infinite ease-in-out;
+}
+#L2 {
+    text-align: center;
+    font-size: xxx-large;
+    animation: L2 2s infinite ease-in-out;
+}
+#O {
+    text-align: center;
+    font-size: xxx-large;
+    animation: O 2s infinite ease-in-out;
+}
+.Container {
+    display: flex;
+    justify-content: center;
+    border: 6px solid black ;
+    height: 50vh;
+    align-items: center;
+}
+@keyframes H{
+    50%{
+    transform: translateY(-50px);
+    transform: scale(1.5);
+    }
+}
+@keyframes E{
+    25%{
+        transform: translateY(20px);
+    }
+    75%{
+        transform: translateY(-20px);
+    }
+}
+@keyframes L{
+    100%{
+        transform: rotateZ(360deg);
+    }
+}
+@keyframes L2{
+    50% {
+        transform: skew(30deg);
+}
+}
+@keyframes O{
+    100% {
+        transform: rotateX(360deg)
+    }
+}
